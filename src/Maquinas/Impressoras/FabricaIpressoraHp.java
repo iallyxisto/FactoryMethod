@@ -8,4 +8,7 @@ public class FabricaIpressoraHp implements FabricarMaquinas {
     public MaquinasFactory criarMaquinas() {
         return  new ImpresoraHp();
     }
+     public  void imprimirDocumento(){
+        System.out.println("imprimindo documennto");
+    }
 }

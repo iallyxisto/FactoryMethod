@@ -7,6 +7,9 @@ public class Copiadora implements MaquinasFactory {
     public void criarMaquinas() {
 
     }
+    public  void xerox(){
+        System.out.println("copiando xerox");
+    }
 
 
 }
